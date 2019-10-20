@@ -15,9 +15,14 @@ Expo with react native
    - Flex takes space available
 
 ### 4. Get Location
-- **React Native** (document)[https://facebook.github.io/react-native/docs/geolocation]
+- **React Native** [https://facebook.github.io/react-native/docs/geolocation]
    ```
    navigator.geolocation.getCurrentPosition(geo_success, [geo_error], [geo_options]);
    ```
-- **Expo** (document)[https://docs.expo.io/versions/latest/sdk/location/]
+- **Expo** [https://docs.expo.io/versions/latest/sdk/location/]
    - expo install expo-location
+
+### 5. Get Temperature
+- Added propTypes
+- Added '&units=metric' at the end of API URL to change from farenheit to celcius
+- Inside of setState put temperature data
